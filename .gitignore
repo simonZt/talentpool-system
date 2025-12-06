@@ -1,21 +1,30 @@
-(
-echo # dependencies
-echo /node_modules
-echo
-echo # build output
-echo /dist
-echo /.vite
-echo /build
-echo
-echo # env
-echo .env
-echo .env.local
-echo
-echo # IDE
-echo .vscode/
-echo .idea/
-echo
-echo # OS
-echo Thumbs.db
-echo .DS_Store
-) > .gitignore
+# dependencies
+/node_modules
+
+# build output
+/dist
+/.vite
+/build
+/.next
+/out
+
+# env
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
