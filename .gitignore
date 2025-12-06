@@ -1,0 +1,21 @@
+(
+echo # dependencies
+echo /node_modules
+echo
+echo # build output
+echo /dist
+echo /.vite
+echo /build
+echo
+echo # env
+echo .env
+echo .env.local
+echo
+echo # IDE
+echo .vscode/
+echo .idea/
+echo
+echo # OS
+echo Thumbs.db
+echo .DS_Store
+) > .gitignore
